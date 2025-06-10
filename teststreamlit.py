@@ -3,6 +3,7 @@ import random
 
 # Các lựa chọn
 choices = ["Kéo", "Búa", "Bao"]
+computer_choice = random.choice(["Kéo"] * 3 + ["Búa"] * 2 + ["Bao"] * 5)
 
 def get_winner(player, computer):
     if player == computer:
