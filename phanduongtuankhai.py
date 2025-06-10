@@ -8,7 +8,7 @@ st.markdown("""
     <style>
     .login-box {
         background-color: white;
-        padding: 40px 30px;
+        padding: 120px 100px;
         border-radius: 15px;
         width: 350px;
         margin: 0 auto;
